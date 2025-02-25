@@ -81,61 +81,61 @@ class Exam {
 const questionsData = [
     new Question(
         "Do you know the breed?",
-        "/Images/img1.jpg",
+        "./Images/img1.jpg",
         ["Siberian Husky", "Bulldog", "Saint Bernard"],
         "Siberian Husky"
     ),
     new Question(
         "Which bird is this?",
-        "/Images/img2.jpg",
+        "./Images/img2.jpg",
         ["Eagle", "Hawk", "Falcon"],
         "Eagle"
     ),
     new Question(
         "Identify this car brand",
-        "/Images/img3.jpg",
+        "./Images/img3.jpg",
         ["BMW", "Mercedes", "Audi"],
         "BMW"
     ),
     new Question(
         "What flower is this?",
-        "/Images/img4.jpg",
+        "./Images/img4.jpg",
         ["Rose", "Tulip", "Lily"],
         "Rose"
     ),
     new Question(
         "Name this programming language logo",
-        "/Images/img5.jpg",
+        "./Images/img5.jpg",
         ["Python", "Java", "JavaScript"],
         "Python"
     ),
     new Question(
         "Which famous landmark is this?",
-        "/Images/img6.jpg",
+        "./Images/img6.jpg",
         ["Eiffel Tower", "Big Ben", "Taj Mahal"],
         "Eiffel Tower"
     ),
     new Question(
         "Identify this musical instrument",
-        "/Images/img7.jpg",
+        "./Images/img7.jpg",
         ["Piano", "Guitar", "Violin"],
         "Piano"
     ),
     new Question(
         "What sport is this?",
-        "/Images/img8.jpg",
+        "./Images/img8.jpg",
         ["Football", "Basketball", "Tennis"],
         "Basketball"
     ),
     new Question(
         "Name this planet",
-        "/Images/img9.jpg",
+        "./Images/img9.jpg",
         ["Mars", "Jupiter", "Saturn"],
         "Saturn"
     ),
     new Question(
         "Which animal is this?",
-        "/Images/img10.jpg",
+        "./Images/img10.jpg",
         ["Lion", "Tiger", "Leopard"],
         "Lion"
     )
