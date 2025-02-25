@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+#home-page {
+    text-align: center;
+}
+
+#start-btn {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.timer-container {
+    margin-bottom: 2rem;
+}
+
+#timer-bar {
+    height: 10px;
+    background-color: #4CAF50;
+    width: 100%;
+    border-radius: 5px;
+    transition: width 1s linear;
+}
+
+#timer-text {
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.question-container {
+    text-align: center;
+}
+
+#question-image {
+    width: 400px;
+    height: 300px;
+    margin: 1rem auto;
+    display: block;
+}
+
+#answers-container {
+    display: grid;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.answer-option {
+    padding: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.answer-option:hover {
+    background-color: #f5f5f5;
+}
+
+.answer-option.selected {
+    background-color: #e0e0e0;
+    border-color: #999;
+}
+
+#next-btn {
+    padding: 0.8rem 1.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#next-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#result-page {
+    text-align: center;
+}
+
+.result-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid #4CAF50;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#percentage {
+    font-size: 3rem;
+    font-weight: bold;
+}

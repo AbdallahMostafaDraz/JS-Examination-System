@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.3/sweetalert2.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.3/sweetalert2.min.js"></script>
+    <script src="exam.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="home-page" class="page active">
+            <h1>Welcome to the Exam</h1>
+            <button id="start-btn" disabled>Start Exam</button>
+        </div>
+        
+        <div id="exam-page" class="page">
+            <div class="timer-container">
+                <div id="timer-bar"></div>
+                <span id="timer-text">60</span>
+            </div>
+            
+            <div class="question-container">
+                <h2 id="question-title"></h2>
+                <img id="question-image" src="" alt="">
+                <div id="answers-container"></div>
+                <button id="next-btn" disabled>Next</button>
+            </div>
+        </div>
+        
+        <div id="result-page" class="page">
+            <h2>Exam Results</h2>
+            <div class="result-circle">
+                <span id="percentage">0%</span>
+            </div>
+            <p id="score-text"></p>
+            <p id="student-name-display"></p>
+        </div>
+    </div>
+</body>
+</html>
